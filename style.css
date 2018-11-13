@@ -1,0 +1,63 @@
+body {
+    background-image: url(https://nerdist.com/wp-content/uploads/2016/05/CalvinHobbes-Chagrin-Falls-970x545.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1 {
+    margin: 5px;
+    border: 1px solid black;
+    padding: 3px;
+    width: 500px;
+    height: 150px;
+    box-sizing: border-box;
+}
+.container {
+    display: inline-block;
+}
+p {
+    font-weight: 750;
+    color: #162745;
+    font-size: 24px;
+    background-color: #95c2d3;
+}
+#img1 {
+    position: absolute;
+    left: 1200px;
+    top:65px;
+    opacity: 0.4;
+}
+#img2 {
+    position: relative;
+    left: 250px;
+}
+#img3 {
+    position: fixed;
+    bottom: 0;
+    right: 10vw;
+    width: 10vw;
+}
+nav p {
+    color: #7a105a;
+    font-size: 18px;
+}
+span {
+    background-color: #7a105a;
+    color: gold;
+}
+h2 {
+    color: yellow;
+    background-color: purple
+}
+div > h2 {
+    color: red;
+    background-color: green
+}
+div + h2 {
+    color: blue;
+    background-color: orange;
+}
+h2[target] {
+    float: right;
+    color: white;
+    background-color: black;
+}
